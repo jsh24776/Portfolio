@@ -47,7 +47,7 @@ export const projectsData: Project[] = [
     fullOverview: 'Atlas is designed from the ground up to solve the friction personal trainers and fitness coaches experience when organizing client schedules and tracking training progression. Developed with Flutter and Dart, the application prioritizes local data persistence, smooth list interactions, and an intuitive workout program builder.',
     status: 'In Development',
     technologies: ['Flutter', 'Dart', 'SQLite / Hive Persistence', 'State Management', 'Material 3'],
-    imagePath: '/src/assets/images/atlas_fitness_visual_1793597879786.jpg',
+    imagePath: '/src/assets/images/atlas_fitness_visual.jpg',
     githubUrl: 'https://github.com/jsh24776/atlas',
     highlights: [
       'Client roster and personal profile management with health history',
