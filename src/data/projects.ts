@@ -1,3 +1,8 @@
+
+import sentinelImage from '../assets/images/sentinel_disaster_visual_1793597879151.jpg';
+import atlasImage from '../assets/images/atlas_fitness_visual.jpg';
+import earthquakeImage from '../assets/images/earthquake_ml_visual_1793597880850.jpg';
+import foodImage from '../assets/images/food_vision_visual_1793597880310.jpg';
 import { Project } from '../types';
 
 export const projectsData: Project[] = [
@@ -11,7 +16,7 @@ export const projectsData: Project[] = [
     fullOverview: 'Sentinel is an exploratory disaster intelligence web application engineered to visualize seismic activity and geographical disaster data. Built with React, TypeScript, and Leaflet/OpenStreetMap, the project focuses on responsive cartographic rendering, spatial event clustering, and providing clear, actionable situational awareness during geological incidents.',
     status: 'In Development',
     technologies: ['React', 'TypeScript', 'Leaflet', 'OpenStreetMap', 'Tailwind CSS', 'GeoJSON APIs'],
-    imagePath: '/src/assets/images/sentinel_disaster_visual_1793597879151.jpg',
+    imagePath: sentinelImage,
     githubUrl: 'https://github.com/jsh24776/sentinel',
     highlights: [
       'Interactive cartographic viewport with coordinate projection and depth heatmaps',
@@ -47,7 +52,7 @@ export const projectsData: Project[] = [
     fullOverview: 'Atlas is designed from the ground up to solve the friction personal trainers and fitness coaches experience when organizing client schedules and tracking training progression. Developed with Flutter and Dart, the application prioritizes local data persistence, smooth list interactions, and an intuitive workout program builder.',
     status: 'In Development',
     technologies: ['Flutter', 'Dart', 'SQLite / Hive Persistence', 'State Management', 'Material 3'],
-    imagePath: '/src/assets/images/atlas_fitness_visual.jpg',
+    imagePath: atlasImage,
     githubUrl: 'https://github.com/jsh24776/atlas',
     highlights: [
       'Client roster and personal profile management with health history',
@@ -84,7 +89,7 @@ export const projectsData: Project[] = [
     fullOverview: 'An academic exploration into applying gradient boosting frameworks to geophysical datasets. The project investigates tabular seismic indicators, temporal occurrence intervals, and spatial coordinates to evaluate model classification performance. Implemented using Python, LightGBM, and Scikit-learn with rigorous cross-validation.',
     status: 'Research Prototype',
     technologies: ['Python', 'LightGBM', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib'],
-    imagePath: '/src/assets/images/earthquake_ml_visual_1793597880850.jpg',
+    imagePath: earthquakeImage,
     githubUrl: 'https://github.com/jsh24776/earthquake-prediction-lightgbm',
     highlights: [
       'Extensive exploratory data analysis on geological and seismic event catalogs',
@@ -120,7 +125,7 @@ export const projectsData: Project[] = [
     fullOverview: 'Filipino dishes often have complex textures, sauces, and presentations that present unique computer vision challenges. This project built a specialized object detection model utilizing YOLOv8n, trained across thousands of annotated images to recognize popular local dishes in real-world lighting conditions.',
     status: 'Research Prototype',
     technologies: ['Python', 'YOLOv8', 'Roboflow', 'PyTorch', 'OpenCV', 'Data Augmentation'],
-    imagePath: '/src/assets/images/food_vision_visual_1793597880310.jpg',
+    imagePath: foodImage,
     githubUrl: 'https://github.com/jsh24776/filipino-food-detection-yolov8',
     highlights: [
       'Custom labeled dataset of 7,461 images with bounding box annotations',
